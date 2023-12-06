@@ -23,7 +23,7 @@ export const RemotionRoot: React.FC = () => {
 					titleText: 'Welcome to Remotion',
 					titleColor: '#000000',
 					logoColor1: '#91EAE4',
-					logoColor2: '#86A8E7',
+					logoColor2: '#55ff00',
 				}}
 			/>
 			{/* Mount any React component to make it show up in the sidebar and work on it individually! */}
@@ -37,7 +37,7 @@ export const RemotionRoot: React.FC = () => {
 				schema={myCompSchema2}
 				defaultProps={{
 					logoColor1: '#91dAE2' as const,
-					logoColor2: '#86A8E7' as const,
+					logoColor2: '#55ff00' as const,
 				}}
 			/>
 		</>
